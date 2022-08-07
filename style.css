@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#container {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #e3e3e3;
+    text-transform: uppercase;
+    color: #e3e3e3;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: 800;
+    margin: 2.5px;
+    float: left;
+}
+
+.guessed {
+    border: 2px solid #393838;
+    background-color: white;
+    color: #393838;
+}
+
+.included {
+    border: 2px solid #6AAA64;
+    background-color: #6AAA64;
+    color: white
+}
+
+.flagged {
+    border: 2px solid #C9B458;
+    background-color: #C9B458;
+    color: white;
+}
+
+.excluded {
+    border: 2px solid #393939;
+    background-color: #393939;
+    color: white;
+}
